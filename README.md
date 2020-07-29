@@ -10,13 +10,13 @@ This server listens on port 8891 and expects to be given a few parameters, this 
 
 function sendEmail() {
 	let emailBody = {
-		host: host,					// Email smtp hosting
-		port: port,					// Port used
-		authUser: authUser,			// Smtp hosting user
-		authPassword: authPassword, // Smtp hosting password
+		host: host,			// Email smtp hosting
+		port: port,			// Port used
+		authUser: authUser,		// Smtp hosting user
+		authPassword: authPassword, 	// Smtp hosting password
 		user_email: user_email,		// Email of user sending the mail
 		dest_email: dest_email,		// Email of destination user
-		subject: subject,			// Email subject
+		subject: subject,		// Email subject
 		emailBody: emailBody,		// Email body
 	}
 
