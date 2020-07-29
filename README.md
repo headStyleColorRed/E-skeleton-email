@@ -31,11 +31,3 @@ function sendEmail() {
 }
 	
 ```
-
-
-
-
-
-## Last part
-
-I'm searching for a job so.. hook me up? :smirk:
